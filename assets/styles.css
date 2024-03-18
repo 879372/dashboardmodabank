@@ -1,0 +1,56 @@
+/* ========== Main Configs ============ */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 99vh;
+    background-size: 300% 300%;
+    background-color: #e61a55;
+}
+
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari e Opera */
+}
+
+/* ============ Corrigindo as cores do menu dropdown ===========*/
+div.Select-control {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    border: 0.5px solid #1b1e20;
+    font-size: 80%;
+}
+
+.VirtualizedSelectOption {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white !important;
+}
+
+.Select-value-label {
+    color: white !important;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.input{
+    height: 50px;
+}
+
+.input1{
+    margin-bottom: 30px;
+}
+
+.expirado{
+    color: red;
+}
